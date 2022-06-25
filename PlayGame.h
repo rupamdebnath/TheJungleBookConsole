@@ -45,7 +45,7 @@ class PlayGame
       case 3:
       if (player_turn%3 != 0)
       { 
-        cout << "Invalid move, Only on the third turn you get the special ability!" << endl;
+        cout << "Invalid move, Only on every third turn you get the special ability!" << endl;
         cout << " Unfortunately you lose this turn! " << endl;
         sleep(1);
         cout << "^ ^" << endl;
